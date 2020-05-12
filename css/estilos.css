@@ -1,12 +1,20 @@
      * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
      }
      
      body {
       background-image: url("https://image.freepik.com/fotos-gratis/abstrato-azul-espiral_107441-50.jpg");
       font-family: Arial;
-      background-size: cover;
+      background-size: auto 100vh;
+      height: 100vh;
+     }
+     
+     @media (min-width: 400px) {
+       body{
+         font-size: 14px;
+       }
      }
      
      header {
@@ -51,6 +59,10 @@
      .site-title {
        text-align: center;
        color: whitesmoke;
+     }
+     
+     .site-title {
+       font-size: 4em;
      }
      
      .site-subtitle {
