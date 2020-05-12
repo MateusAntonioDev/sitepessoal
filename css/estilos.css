@@ -9,9 +9,16 @@
       background-size: cover;
      }
      
+     header {
+       height: 100vh;
+       display: flex;
+       
+     }
+     
      .menu {
       background: white;
-      font-size: 30px;
+      position: fixed;
+      width: 100vw;
      }
      
      .menu li {
@@ -40,7 +47,11 @@
      
      .site-subtitle {
        font-style: italic;
-     }</style></head> 
- <body> 
- 
-</body></html>
+     }
+     
+     .img-portifolio {
+       width: 370px;
+       height: 200px;
+       
+     }
+      
