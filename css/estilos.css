@@ -5,7 +5,7 @@
      }
      
      body {
-      background-image: url("https://image.freepik.com/fotos-gratis/abstrato-azul-espiral_107441-50.jpg");
+      background-color: darkcyan;
       font-family: 'DM Mono', monospace;
       background-size: auto 100vh;
       height: 100vh;
@@ -110,12 +110,20 @@
        line-height: 1.8em;
      }
      
-     .contato,
+     .sobre h2,
+     .contato h2,
      .portfolio h2 {
        font-family: 'Righteous', cursive;
        color: whitesmoke;
        margin-bottom: 1.5em;
        font-size: 2em; 
+     }
+     
+     .sobre p {
+       color: whitesmoke;
+       text-indent: 1.5em;
+       margin-bottom: 1.4em;
+       text-align: justify;
      }
      
      .portfolio .grid {
@@ -149,10 +157,31 @@
        transform: scale(1.3);
      }
      
+     .sobre,
      .contato,
      .portfolio {
        padding: 2em;
        min-height: 100vh;
+     }
+     
+     .sobre .avatar {
+       float: left;
+       margin-right: 2em;
+       
+     }
+     
+     .sobre .avatar img {
+       width: 200px;
+       height: auto;
+       clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+     }
+     
+     @media (min-width: 1200px) {
+       .container{
+         max-width: 1200px;
+         margin-left: auto;
+         margin-right: auto;
+       }
      }
      
      .portfolio figure {
@@ -164,7 +193,7 @@
      }
      
      .contato a {
-       color: whitesmoke;
+       color: black;
        font-size: 8em;
        transition: text-shadow 1s;
      }
@@ -173,17 +202,3 @@
        text-decoration: none;
        text-shadow: 0px 0px 10px whitesmoke;
      }
-     
-     .sobrem{
-       text-align: center;
-       font-family: 'Righteous', cursive;
-       color: whitesmoke;
-     }
-     
-     .sobremm {
-       text-align: center;
-       color: white;
-       font-family: 'Righteous', cursive;
-     }
-     
-     
