@@ -194,11 +194,11 @@
      
      .contato a {
        color: black;
-       font-size: 8em;
+       font-size: 6em;
        transition: text-shadow 1s;
      }
      .contato a:action,
      .contato a:hover {
        text-decoration: none;
-       text-shadow: 0px 0px 10px whitesmoke;
+       text-shadow: 0px 0px 10px rgba(255,255,255,.5);
      }
