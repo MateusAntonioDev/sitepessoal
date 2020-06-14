@@ -11,6 +11,10 @@
       height: 100vh;
       font-size: 12px;
      }
+
+     h2 {
+       text-align: center;
+     }
      
      @media (min-width: 400px) {
        body{
@@ -164,7 +168,7 @@
      .portfolio .grid {
        display: grid;
        gap: 2em;
-       margin-top: 6em;
+       margin-top: 10em;
      }
      
      @media (min-width: 560px) {
@@ -211,4 +215,8 @@
      .contato a:hover {
        text-decoration: none;
        text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+     }
+
+     .contato h2{
+       margin-top: 5em;
      }
