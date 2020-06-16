@@ -123,22 +123,28 @@
      }
 
      .sobre,
+     .contato {
+      background-color: whitesmoke;
+    }
+
+     .sobre,
      .contato,
      .portfolio {
-       padding: 2em;
-       min-height: 100vh;
+        padding: 2em;
+        min-height: 100vh;
      }
 
-     @media (min-width: 1200px) {
-       .container{
-         max-width: 1200px;
-         margin-left: auto;
-         margin-right: auto;
-       }
-     }
      
      .sobre h2,
-     .contato h2,
+     .contato h2 {
+       font-family: 'Righteous', cursive;
+       color: darkcyan;
+       margin-bottom: 1.5em;
+       font-size: 2em; 
+     }
+     
+     
+     
      .portfolio h2 {
        font-family: 'Righteous', cursive;
        color: whitesmoke;
@@ -147,7 +153,7 @@
      }
      
      .sobre p {
-       color: whitesmoke;
+       color: darkcyan;
        text-indent: 1.5em;
        margin-bottom: 1.4em;
        text-align: justify;
@@ -164,11 +170,14 @@
        height: auto;
        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
      }
+
+     
      
      .portfolio .grid {
        display: grid;
        gap: 2em;
-       margin-top: 10em;
+       margin-top: 5em;
+       margin-bottom: 2em;
      }
      
      @media (min-width: 560px) {
@@ -207,19 +216,17 @@
      }
      
      .contato a {
-       color: whitesmoke;
+       color: black;
        font-size: 6em;
        transition: text-shadow 1s;
      }
      .contato a:active,
      .contato a:hover {
        text-decoration: none;
-       text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+       text-shadow: 0px 0px 10px rgba(0,0,0,.5);
      }
 
-     .contato h2{
-       margin-top: 5em;
-     }
+     
 
      .grid figcaption {
        text-align: left;
