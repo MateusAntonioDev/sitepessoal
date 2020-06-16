@@ -220,3 +220,8 @@
      .contato h2{
        margin-top: 5em;
      }
+
+     .grid figcaption {
+       text-align: left;
+       color: whitesmoke;
+     }
