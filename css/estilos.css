@@ -5,7 +5,7 @@
      }
      
      body {
-      background-color: darkcyan;
+      background-color: #2c3e50;
       font-family: 'DM Mono', monospace;
       background-size: auto 100vh;
       height: 100vh;
@@ -70,14 +70,14 @@
      
      .menu a:active,
      .menu a:hover{
-       background-color: teal;
+       background-color: #2c3e50;
        color: white;
        
      }
      
      a {
        text-decoration: none;
-       color: teal;
+       color: #2c3e50;
      }
      
      a:hover {
@@ -138,7 +138,7 @@
      .sobre h2,
      .contato h2 {
        font-family: 'Righteous', cursive;
-       color: darkcyan;
+       color: #2c3e50;
        margin-bottom: 1.5em;
        font-size: 2em; 
      }
@@ -153,7 +153,7 @@
      }
      
      .sobre p {
-       color: darkcyan;
+       color: #2c3e50;
        text-indent: 1.5em;
        margin-bottom: 1.4em;
        text-align: justify;
@@ -223,7 +223,7 @@
      .contato a:active,
      .contato a:hover {
        text-decoration: none;
-       text-shadow: 0px 0px 10px rgba(0,0,0,.8);
+       text-shadow: 0px 0px 10px rgba(255,255,255,.8);
      }
 
      
