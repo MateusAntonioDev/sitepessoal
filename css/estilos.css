@@ -216,14 +216,14 @@
      }
      
      .contato a {
-       color: black;
+       color: #2c3e50;
        font-size: 6em;
        transition: text-shadow 0.5s;
      }
      .contato a:active,
      .contato a:hover {
        text-decoration: none;
-       text-shadow: 0px 0px 10px rgba(255,255,255,.8);
+       text-shadow: 0px 0px 10px rgba(12, 133, 117, 0.8);
      }
 
      
