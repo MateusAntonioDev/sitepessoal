@@ -1,3 +1,3 @@
 Site pessoal utilizando HTML e css
 
-https://mateusntn.github.io/sitepessoal/
+https://mateusantoniodev.github.io/sitepessoal/
