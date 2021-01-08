@@ -42,7 +42,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background: url(../img/wallpaper.jpg) no-repeat center;
 }
 
 .menu {
