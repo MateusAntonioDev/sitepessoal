@@ -201,6 +201,7 @@ background-color: whitesmoke;
   object-fit: cover;
   object-position: left bottom;
   transition: transform 500ms;
+  border-radius: 10px;
 }
 
 .img-portfolio:hover {
